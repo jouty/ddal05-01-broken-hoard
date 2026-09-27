@@ -1,0 +1,40 @@
+{
+  "id": "ddal05-01-broken-hoard",
+  "title": "DDAL5-01 Le Trésor du Magot Brisé (VF)",
+  "description": "Conversion privée du module Fantasy Grounds DDAL5-01 pour dnd5e, traduite en français (créatures 2024).",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "Shawn Merwin (WotC) — conversion Foundry"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "adventure-fr",
+      "label": "DDAL5-01 Le Trésor du Magot Brisé",
+      "path": "packs/adventure-fr",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": []
+}
